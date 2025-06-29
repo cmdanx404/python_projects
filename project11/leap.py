@@ -1,8 +1,3 @@
-# Project No. 11
-# Leap year using function
-
-year = int(input("Enter year: "))
-           
 def leap_year(year_input):
     if year_input % 4 == 0:
         if year_input % 100 == 0:
@@ -13,5 +8,4 @@ def leap_year(year_input):
         else:
             return "Leap year"
     else:
-        return "Not leap year"
-print(leap_year(year))
+        return "Not leap year"       
