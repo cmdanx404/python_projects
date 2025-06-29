@@ -7,5 +7,6 @@ rate = input(("Enter Rate: "))
 #casting
 hour = float(hour)
 rate = float(rate)
-print ("Pay: ", hour * rate)
+pay = round(hour * rate, 2)
+print (f"Pay: {pay}")
 
